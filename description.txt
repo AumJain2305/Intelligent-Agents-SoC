@@ -1,0 +1,5 @@
+We create an array containing all but one zeroes
+One of the indices is set to 1
+In every iteration, for any index we set either its preceeding or its succeeding index to 1
+We then select any 2 random indices and swap them
+Finally we count the number of indices set to 1 and plot it against the number of iterations
