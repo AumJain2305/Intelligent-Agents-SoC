@@ -1,0 +1,5 @@
+Plot - 2 
+The average number of iterations is 41.201
+
+Plot - 3
+The maximum vlue of derivative obtained is 1032
