@@ -20,7 +20,7 @@ def makemodel(train_x, train_y):
   return model
 
 def get_data(df):
-  feature_x = np.array(df['GRE_Score'])
+  feature_x = np.array(df['GREScore'])
   feature_x = feature_x.reshape(-1, 1)
   poly = PolynomialFeatures(degree=2)
   Xpoly = poly.fit_transform(feature_x)
@@ -35,8 +35,8 @@ if __name__ == '__main__':
   test_df = getfile(test_file)
   train_x = get_data(train_df)
   test_x = get_data(test_df)
-  train_y = np.array(train_df['TOEFL_Score'])
-  test_y = np.array(test_df['TOEFL_Score'])
+  train_y = np.array(train_df['TOEFLScore'])
+  test_y = np.array(test_df['TOEFLScore'])
   model = makemodel(train_x, train_y)
   output = result(model, test_x)
   print(output)
