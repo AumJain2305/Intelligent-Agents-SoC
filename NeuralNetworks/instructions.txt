@@ -1,0 +1,13 @@
+To run this script you must have:
+1. Python 3.x
+2. numPy library
+3. random library
+4. matplotlib library(if you wish to plot the costs)
+If you do not have the matplotlib library kindly comment out the lines 3 and 105 of the XORGate.py file.
+
+Instructions: 
+Clone the repository and download it on your local machine
+Navigate to the directory containing XORGate.py file
+Run python3 XORGate.py 
+Input the two bits
+Hola! You get the XOR of the two numbers
