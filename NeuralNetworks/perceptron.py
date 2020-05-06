@@ -47,5 +47,6 @@ if x1 in range(2) and x2 in range(2) and x3 in range(2):
   x_test = np.array([x1, x2, x3]).T
   ans = forward(x_test,w)
   print("Predicted output is")
-  print("1" if ans[0]>=0.5 else "0")
+  print(1 if answer[0]>=0.5 else 0)
+
   
